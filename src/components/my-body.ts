@@ -41,7 +41,7 @@ export class MyBody extends LitElement {
       cursor: pointer;
     }
 
-    @media screen and (max-width:768px) and (orientation:landscape) {
+    @media screen and (max-width:780px) {
       :host {
         font-size: 1.1em;
         padding: 0 1em;

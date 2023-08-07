@@ -2,6 +2,8 @@
 
   The goal of this project was to try to create the freecodecamp.com home page, but using the LitElement library.
 
+  Preview: __https://lit-freecodecamp-clone.netlify.app/__
+
 ## Technologies used
 
 * Typescript

@@ -1,6 +1,6 @@
 import { CSSResultGroup } from 'lit';
 import { LitElement, html, css } from 'lit';
-import { property, customElement } from 'lit/decorators.js';
+import { customElement } from 'lit/decorators.js';
 
 import appleLogo from '../assets/Apple_logo.png'
 import googleLogo from '../assets/google_logo.png'
@@ -41,7 +41,7 @@ export class MyBody extends LitElement {
       cursor: pointer;
     }
 
-    @media (max-width:768px) {
+    @media screen and (max-width:768px), (orientation:landscape) {
       :host {
         font-size: 1.1em;
         padding: 0 1em;
